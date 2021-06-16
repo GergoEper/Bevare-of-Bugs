@@ -17,4 +17,10 @@ function keyPressed() {
     if (keyCode === 32) {
         game.player.jump();
     }
+    if (keyCode === 37) {
+        game.player.backwards();
+    }
+    if (keyCode === 39) {
+        game.player.forward();
+    }
 }
