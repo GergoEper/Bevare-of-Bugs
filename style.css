@@ -6,3 +6,10 @@ body {
     font-family: "Roboto", sans-serif;
   }
   
+  .score-life {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+  }

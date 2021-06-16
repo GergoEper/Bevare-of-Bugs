@@ -8,8 +8,8 @@ class Background {
     draw() {
         image(game.backgroundImage, this.x1, this.y, width, height)
         image(game.backgroundImage, this.x2, this.y, width, height)
-        this.x1 -= 2
-        this.x2 -= 2
+        this.x1 -= 1.5
+        this.x2 -= 1.5
 
         if (this.x1 < - width){
             this.x1 = width;
