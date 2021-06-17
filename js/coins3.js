@@ -1,4 +1,4 @@
-class Coins {
+class Coins3 {
     constructor(image) {
         this.image = image;
         this.x = width
@@ -32,7 +32,7 @@ class Coins {
 	}
 
     draw() {
-		this.x = this.x -3;
+		this.x = this.x -1.5;
 		image(this.image, this.x, this.y, this.width, this.height);
 	}
 }

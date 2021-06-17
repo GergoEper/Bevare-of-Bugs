@@ -18,10 +18,10 @@ function keyPressed() {
     if (keyCode === 32) {
         game.player.jump();
     }
-    if (keyCode === 37) {
+    if (keyCode === LEFT_ARROW) {
         game.player.backwards();
     }
-    if (keyCode === 39) {
+    if (keyCode === RIGHT_ARROW) {
         game.player.forward();
     }
 }

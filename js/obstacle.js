@@ -21,6 +21,7 @@ class Obstacle {
             document.querySelector('.life').innerText = game.life
             if (game.life <= 0) {
                 alert('Bugs everywhere!!! google it and try again!')
+                noLoop();
                 document.location.reload();
             }
 			return true	
@@ -29,7 +30,7 @@ class Obstacle {
 	}
 
     draw() {
-		this.x = this.x - 4;
+		this.x = this.x - 5;
 		image(this.image, this.x, this.y, this.width, this.height);
 	}
 }
