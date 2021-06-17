@@ -22,9 +22,11 @@ class Coins {
             document.querySelector('.score').innerText = game.score
             //console.log(game.score)
             //console.log('something is happening')
-            if (game.score >= 10) {
-                alert('You win!')
-                document.location.reload();
+            if (game.score >= 5) {
+                setTimeout(() => {
+                    alert('You win!')
+                    document.location.reload();
+                }, 300);
             }
 			return true;
 		}

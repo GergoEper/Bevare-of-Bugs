@@ -1,12 +1,17 @@
 const game = new Game();
+let audio = new Audio("music/funny_track_with_ringtone_effects_c64_style.ogg");
 
 function preload() {
     game.preload();
+    audio.play();
 }
 
 function setup() {
     createCanvas(899, 522);
     game.setup();
+    button = createButton('Sound On/Off');
+    button.position(0, 0);
+    button.mousePressed(game.sound);
 }
 
 function draw() {

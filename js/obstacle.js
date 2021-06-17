@@ -20,9 +20,13 @@ class Obstacle {
             game.life --
             document.querySelector('.life').innerText = game.life
             if (game.life <= 0) {
-                alert('Bugs everywhere!!! google it and try again!')
-                noLoop();
-                document.location.reload();
+                setTimeout(() => {
+                    alert('Bugs everywhere!!! google it and try again!')
+                    document.location.reload();
+                }, 300);
+                
+               // noLoop();
+                
             }
 			return true	
 		}
