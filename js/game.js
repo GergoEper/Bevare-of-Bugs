@@ -12,6 +12,7 @@ class Game {
         this.coins3 = [];
         this.score = 0;
         this.life = 3;
+        this.count = 0;
     }
 
     preload() {
@@ -98,5 +99,19 @@ class Game {
 				return true
 			}
 		})
+    }
+
+    sound() {
+        let audio = new Audio("music/funny_track_with_ringtone_effects_c64_style.ogg");
+        
+        if ( this.count === 0) {
+            console.log(this.count);
+            this.count = 1;
+            console.log(this.count);
+            audio.play();
+        } else {
+            this.count = 0;
+            audio.pause();
+        }    
     }
 }

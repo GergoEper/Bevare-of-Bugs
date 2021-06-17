@@ -19,7 +19,7 @@ class Player {
         if (this.y < 20) {
 			this.y = 20;
 		}
-        console.log(this.y);
+        //console.log(this.y);
         if (this.x >= width - (this.width + 20)) {
             this.x = width - (this.width + 20);
         }
