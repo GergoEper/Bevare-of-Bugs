@@ -17,11 +17,11 @@ class Game {
 
     preload() {
         this.backgroundImage = loadImage('assets/background2.png');
-        this.playerImage = loadImage('../assets/player.png');
-        this.obstacleImage = loadImage('../assets/bug.png');
-        this.coinImage = loadImage('../assets/javascript.png');
-        this.coin2Image = loadImage('../assets/CSS.png');
-        this.coin3Image = loadImage('../assets/HTML.png');
+        this.playerImage = loadImage('assets/player.png');
+        this.obstacleImage = loadImage('assets/bug.png');
+        this.coinImage = loadImage('assets/javascript.png');
+        this.coin2Image = loadImage('assets/CSS.png');
+        this.coin3Image = loadImage('assets/HTML.png');
     }
     
     draw() {
