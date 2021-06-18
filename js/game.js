@@ -13,6 +13,7 @@ class Game {
         this.score = 0;
         this.life = 3;
         this.count = 0;
+        // something
     }
 
     preload() {
