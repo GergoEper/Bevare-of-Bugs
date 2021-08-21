@@ -9,10 +9,10 @@ function preload() {
 function setup() {
     window.alert('Start')
     // createCanvas(899, 522);
-    createCanvas(1100, 600);
+    createCanvas(1000, 600);
     game.setup();
     button = createButton('Sound On');
-    button.position(0, 0);
+    button.position(30, 0);
     button.mousePressed(game.sound);
 }
 
