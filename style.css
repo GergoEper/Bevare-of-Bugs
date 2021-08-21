@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
+    background-color: rgb(227, 214, 114);
   }
   
   .score-life {
@@ -12,4 +13,18 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 75%;
+  }
+
+  .score {
+    padding: 7px 30px 7px 30px;
+    color: red;
+    background-color: blue;
+    border-radius: 7px;
+  }
+
+  .life {
+    padding: 7px 30px 7px 30px;
+    color: red;
+    background-color: blue;
+    border-radius: 7px;
   }

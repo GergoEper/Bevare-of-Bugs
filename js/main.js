@@ -8,7 +8,8 @@ function preload() {
 
 function setup() {
     window.alert('Start')
-    createCanvas(899, 522);
+    // createCanvas(899, 522);
+    createCanvas(1100, 600);
     game.setup();
     button = createButton('Sound On');
     button.position(0, 0);
