@@ -106,9 +106,9 @@ class Game {
         let audio = new Audio("music/funny_track_with_ringtone_effects_c64_style.ogg");
         
         if ( this.count === 0) {
-            console.log(this.count);
+           // console.log(this.count);
             this.count = 1;
-            console.log(this.count);
+           // console.log(this.count);
             audio.play();
         } else {
             this.count = 0;

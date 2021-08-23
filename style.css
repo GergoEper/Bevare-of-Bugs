@@ -17,14 +17,14 @@ body {
 
   .score {
     padding: 7px 30px 7px 30px;
-    color: red;
-    background-color: blue;
+    color: rgb(245, 230, 230);
+    background-color: rgb(131, 131, 235);
     border-radius: 7px;
   }
 
   .life {
     padding: 7px 30px 7px 30px;
-    color: red;
-    background-color: blue;
+    color: rgb(245, 230, 230);
+    background-color: rgb(131, 131, 235);
     border-radius: 7px;
   }
